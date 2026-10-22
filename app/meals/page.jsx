@@ -14,6 +14,7 @@ async function Meals() {
   const meals = await getMeals();
   return <MealsGrid meals={meals} />;
 }
+export const dynamic = "force-dynamic";
 
 export default function MealsPage() {
   return (
