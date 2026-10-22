@@ -2,7 +2,7 @@
 
 A recipe-sharing web app. Browse meals shared by the community, open a recipe for the full instructions, and share your own with an image upload.
 
-**Live demo:** ??
+**Live demo:** https://next-level-food-omega.vercel.app/
 
 ## Features
 
@@ -32,15 +32,15 @@ A recipe-sharing web app. Browse meals shared by the community, open a recipe fo
 
 ### Prerequisites
 
-- Node.js 18.18 or newer
+- Node.js 20.9 or newer
 - A free [Turso](https://turso.tech) database
 - A [Vercel](https://vercel.com) Blob store (public) for image uploads
 
 ### 1. Install
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/AthanasiosKalogeropoulos/NextLevel-Food.git
+cd NextLevel-Food
 npm install
 ```
 
@@ -90,7 +90,3 @@ The app is deployed on Vercel. Set the three environment variables above in the 
 - Rate limiting and moderation for the public demo
 - Authentication, so recipes belong to real accounts
 - Automated tests
-
-## Author
-
-**Athanasios** - Frontend / Full Stack Engineer, Athens
